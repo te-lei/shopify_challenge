@@ -91,3 +91,10 @@ Group by ProductID
 Order by total_ordered DESC
 
 We see that the product ordered the most in Germany was ProductID 40 with 160 orders.
+
+SELECT ProductName
+FROM Products
+WHERE ProductID = 40
+
+Boston Crab Meat was the most ordered product.
+
